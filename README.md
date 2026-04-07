@@ -45,7 +45,7 @@ The PC interface requires Python 3.x.
 
 1. Clone this repository:
 ```bash
-git clone [https://github.com/Aman22112005/ESP32-Ultrasonic-Radar.git](https://github.com/Aman22112005/ESP32-Ultrasonic-Radar.git)
+git clone https://github.com/Aman22112005/ESP32-Ultrasonic-Radar.git
 cd ESP32-Ultrasonic-Radar
 ```
 
@@ -53,11 +53,11 @@ cd ESP32-Ultrasonic-Radar
 ```bash
 pip install -r requirements.txt
 ```
-Configure the COM Port: Open real_radar.py and update the arduino_port variable to match the COM port assigned to your ESP32 (e.g., COM3 on Windows or /dev/ttyUSB0 on Linux).
+Configure the COM Port: Open radar.py and update the arduino_port variable to match the COM port assigned to your ESP32 (e.g., COM3 on Windows or /dev/ttyUSB0 on Linux).
 
-3.Run the visualization:
+3. Run the visualization:
 ```bash
-python real_radar.py
+python radar.py
 ```
 
 ## 🛠️ Troubleshooting
